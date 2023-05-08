@@ -24,7 +24,7 @@ Obondium Workspace is an open-source platform for building the proprietary Obond
 
 # Project Name: 
 
-## Obondium-Marketplace-Hub
+ **Obondium-Marketplace-Hub**
 
 # Project Overview:
 
