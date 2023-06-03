@@ -3,9 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* globals */
+section{
+    padding: 25px 0px;
+}
 /* header */
 header{
-    background-color: rgb(34, 34, 37);
+    background-color: #14213d;
 }
 header .logo{
     color: orange;
@@ -29,7 +33,7 @@ header .form .form-control{
 }
 header .icons{
     /* padding: 1rem; */
-    background-color: gray;
+    background-color: #e5e5e5;
     border-radius: 4px;
 }
 header .icon{
@@ -39,7 +43,7 @@ header .icon{
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    background-color: red;
+    background-color: #fff;
 }
 header .bottom-nav{
     background-color: black;
@@ -59,4 +63,31 @@ header .bottom-nav ul li a{
 }
 header .bottom-nav ul li .active{
     color: rgb(255, 145, 0);
+}
+#features{
+    background-color: #000000;
+    color: #fff;
+}
+#features .feature-description{
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    padding: 9px;
+    display: flex;
+    align-items: center;
+    transition: ease-in 300ms;
+    background-color: #14213d81;
+    color: #f0efef;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: -1rem;
+}
+#features .img-con{
+    cursor: pointer;
+}
+#features .img-con:hover > .feature-description{
+    opacity: 1;
+    visibility: visible;
+    transition: ease-in 300ms;
 }
